@@ -1,0 +1,612 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* HEADER */
+
+.aboutusImg {
+  background-image: url('/Homes-For-Best-Friends/assest/images/aboutUs.jpeg');
+}
+
+.contactUsBckgrndImg {
+  background-image: url('/Homes-For-Best-Friends/assest/images/contactUS.jpeg');
+}
+
+.resultsBckgrundImg {
+  background-image: url('/Homes-For-Best-Friends/assest/images/results.jpeg');
+}
+
+.donateBckgrndImg {
+  background-image: url('/Homes-For-Best-Friends/assest/images/donate.jpeg');
+}
+
+header {
+  height: 600px;
+  background-image: url('/Homes-For-Best-Friends/assest/images/DogFace.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-top: 100px;
+}
+
+body {
+  background-color: #beeff7;
+}
+
+header h1 {
+  text-align: left;
+  font-family: 'DynaPuff', cursive;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+header p {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+main {
+  text-align: center;
+  padding: 50px 0%;
+}
+main p {
+  font-size: 1.25em;
+  font-family: 'Open Sans', sans-serif;
+}
+main h2 {
+  font-family: 'DynaPuff', cursive;
+}
+h1 {
+  font-family: 'DynaPuff', cursive;
+}
+h3 {
+  font-family: 'DynaPuff', cursive;
+}
+
+/* Index */
+
+.bottomSpacing {
+  margin-bottom: 65px;
+}
+
+.bestFriendText {
+  margin-top: 20px;
+  font-family: 'DynaPuff', cursive;
+}
+
+.topSpacing {
+  margin-top: 60px;
+}
+
+.iconSpacing {
+  margin-top: 40px;
+}
+
+.iconDescription p {
+  margin-bottom: 60px;
+}
+
+.getInvolvedBox {
+  background-color: #17a2b8;
+  padding: 30px 5%;
+  color: white;
+}
+
+.getInvolvedBox h2 {
+  margin-bottom: 20px;
+}
+
+.getInvolvedBox p {
+  margin-top: 70px;
+  margin-bottom: auto;
+}
+
+/*About us*/
+
+.teamSpacing p {
+  margin-bottom: 5em;
+}
+
+.teamcolor {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.boxspacing {
+  padding: 30px 5%;
+}
+
+.titlespacer {
+  margin-bottom: 20px;
+}
+
+.teamDescription p {
+  margin-top: 30px;
+}
+.team h2 {
+  font-family: 'DynaPuff', cursive;
+}
+.team h3 {
+  font-family: 'DynaPuff', cursive;
+}
+.team h4 {
+  font-family: 'DynaPuff', cursive;
+  font-weight: bold;
+}
+.team p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Contact Us Section*/
+.aboutus {
+  padding: 50px;
+}
+
+/* thankYou Page */
+.thankYouMessage h2 {
+  margin-top: 80px;
+}
+
+/*donate*/
+.donation-container {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.donation-box {
+  width: 390px;
+  height: 386px;
+  background-color: #336666;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.donation-box .title {
+  background-color: lightblue;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+
+.donation-box .donate-button {
+  background-color: lightblue;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  bottom: 0px;
+  position: absolute;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.donation-box .fields {
+  width: 59%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+}
+
+.donation-box .fields input {
+  width: 90%;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0px;
+  color: #5c5c5c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-input-placeholder {
+  color: #cdcdcd;
+  font-size: 15px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #cdcdcd;
+  font-size: 15px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #cdcdcd;
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {
+  color: #cdcdcd;
+  font-size: 15px;
+}
+
+.donation-box .amount {
+  width: 30%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  right: 15px;
+}
+
+.donation-box .amount .button {
+  width: 100%;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  padding: 15px 0px 15px 0px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+
+  -webkit-transition: 400ms background-color;
+  -moz-transition: 800ms opacity, 800ms right;
+  -ms-transition: 800ms opacity, 800ms right;
+  -o-transition: 800ms opacity, 800ms right;
+  transition: 200ms background-color;
+}
+
+.donation-box .amount .button:hover {
+  background-color: #393939;
+}
+
+.donation-box .amount .button.selected {
+  background-color: #393939;
+}
+
+.donation-box .amount .button input {
+  min-width: 34px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  border-bottom: 2px dashed white;
+  -webkit-font-smoothing: antialiased;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.set-amount {
+  max-width: 96px;
+}
+
+.switch {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+
+  margin-top: 50px;
+  height: 26px;
+  width: 58.5%;
+  background: white;
+  border-radius: 3px;
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 49%;
+  line-height: 26px;
+  font-size: 11px;
+  color: #5c5c5c;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 114px;
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+  width: 49%;
+  height: 22px;
+  background: lightblue;
+  border-radius: 3px;
+  background-color: lightblue;
+
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+.checkboxes {
+  position: absolute;
+  top: 242px;
+  left: 13px;
+}
+
+.checkboxes label {
+  position: relative;
+  top: -8px;
+  font-size: 13px;
+  color: gray;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 1px solid #c1d82f;
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.checkbox:active,
+.checkbox:checked:active {
+}
+
+.checkbox:checked {
+  background-color: #c1d82f;
+  border: 1px solid #c1d82f;
+  color: white;
+}
+
+.checkbox:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: white;
+}
+
+.confirm {
+  display: none;
+  position: absolute;
+  top: 335px;
+  left: 15px;
+  right: 15px;
+  font-size: 16px;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.confirm i {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.mainText {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Contact Us*/
+.contact {
+  padding: 40px 2%;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+/* results */
+.mySlides {
+  display: none;
+  width: 950px;
+  height: auto;
+  border: 5px solid black;
+  margin: 20px;
+}
+
+.resultsbox {
+  background-color: #17a2b8;
+  padding: 40px 5%;
+}
+
+/* FOOTER */
+
+.contactUsCenter {
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer p {
+  line-height: 15px;
+}
+
+.btn-success {
+  text-align: center;
+  color: #fff;
+  background-color: ;
+  border-color: ;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: lightblue;
+  border-color: lightblue;
+  display: block;
+}
+
+footer {
+  background-color: #17a2b8;
+  padding: 20px 5%;
+}
+
+footer i {
+  color: #def3f6;
+  float: left;
+}
+
+.socialIcons {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.contactIcons {
+  margin-right: 20px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+footer {
+  color: white;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+footer h4 {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.copyrighttext {
+  font-size: 0.85em;
+  text-align: center;
+  font-style: italic;
+  margin-top: 25px;
+}
+
+.partnershiptext {
+  text-align: center;
+}
+
+.thankYoufooter {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* NAVBAR */
+
+.bg-light {
+  background-color: #99cff3 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: grey;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: black;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: grey;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+/*Subscribe section */
